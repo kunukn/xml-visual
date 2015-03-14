@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+
+<notification>
+
+  <rules>
+    <rule status="enabled">    
+      <StatusType>DiskSpace</StatusType>
+      <Status>error</Status>
+      <Server>AmazonIRIEModel</Server>
+      <SendHourFreq>0</SendHourFreq> <!-- 0=once  n=every n hour-->
+      <NotifierId>3</NotifierId> <!-- send to these emailRecipientList id -->
+    </rule>
+
+    <rule status="enabled">
+      <StatusType>FileCheck</StatusType>
+      <Status>error</Status>
+      <Server>VestasIRIEModel</Server>
+      <SendHourFreq>24</SendHourFreq>  
+      <NotifierId>4</NotifierId>  
+    </rule>
+    
+    
+    <rule status="disabled">
+    </rule>
+    
+  </rules>
+  
+</notification>

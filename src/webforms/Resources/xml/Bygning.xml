@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bygning type="hus">
+  <rum type="stue" etage="0">
+    <genstand>spisebord</genstand>
+    <genstand>sofa</genstand>
+  </rum>
+  <rum type="køkken" etage="0">
+    <genstand>køleskab</genstand>
+  </rum>
+  <rum type="kælder" etage="-1">
+    <genstand>vaskemaskine</genstand>
+  </rum>
+  <rum type="soveværelse" etage="1">
+    <genstand>seng</genstand>
+  </rum>
+</bygning>

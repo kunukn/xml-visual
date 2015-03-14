@@ -1,0 +1,37 @@
+<StackPanel Background="#FDF5E6" xmlns:x="x">
+  <StackPanel.Resources>
+    <Storyboard x:Name="myStoryboard">
+      <DoubleAnimationUsingKeyFrames
+       Storyboard.TargetName="myRectangle"
+       Storyboard.TargetProperty="Height">
+
+
+        <!-- This key frame resets the animation to its starting 
+                     value (30) at the beginning of the animation. -->
+
+        <LinearDoubleKeyFrame Value="30" KeyTime="0:0:0" />
+
+
+        <!-- Spline animations are used to create acceleration. This 
+                     SplineDoubleKeyFrame creates an animation that starts out slow
+                     and then speeds up. The rectangle "falls". -->
+
+        <SplineDoubleKeyFrame KeySpline="0,0 1,0" Value="300"
+          KeyTime="0:0:0.8" />
+
+
+        <!-- This spline animation creates the "bounce" at the end where 
+                     the rectangle shortens its length quickly at first and then   
+                     slows down and stops. -->
+
+        <SplineDoubleKeyFrame KeySpline="0.10, 0.21 0.00, 1.0" Value="250"
+          KeyTime="0:0:1.5" />
+
+      </DoubleAnimationUsingKeyFrames>
+    </Storyboard>
+  </StackPanel.Resources>
+
+  <Rectangle x:Name="myRectangle" MouseLeftButtonDown="Mouse_Clicked" Fill="Blue"
+   Width="200" Height="30" />
+
+</StackPanel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html> 
+<head> 
+<title>Visualization of XML documents and transformations</title> 
+<!-- Thesis work  -->
+<style type="text/css">
+body { margin-left:20px;margin-top:20px; }
+</style>
+</head>
+<body>
+
+<h1>Visualization of XML documents and transformations</h1>
+<p>Requires either: IE 9+, Firefox 4+, Chrome 10+, Safari 5+, Opera 11+</p>
+<a href="input.xml"> input.xml</a><br />
+<a href="tree.svg"> Tree view</a><br />
+<a href="bigraphtree.svg"> BigraphTree view</a><br />
+<a href="rectangle.svg"> Rectangle view</a><br />
+</body>  
+</html>

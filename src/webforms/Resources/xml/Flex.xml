@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<mx:Application xmlns:mx="http://www.macromedia.com/2003/mxml">
+  <mx:HSlider id="slider" minimum="0" maximum="100" snapInterval="10" change="{img.alpha=slider.value}" />
+  <mx:Image source="http://www.petefreitag.com/images/blog/kayaks.jpg" id="img" alpha="0" />
+</mx:Application>

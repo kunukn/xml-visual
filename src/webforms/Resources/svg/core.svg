@@ -1,0 +1,70 @@
+<!-- Core beg -->
+<g id="gcore">
+  <g onclick='rotateView(180);' >
+    <rect x='450' y='22'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='453' y='32' class='FontMenu FillWhite'>180</text>
+    <circle cx="485" cy="26" r="2" stroke="white" stroke-width="2" fill-opacity="0.0" />
+  </g>
+  <g onclick='rotateView(0);'>
+    <rect x='450' y='42'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='465' y='52' class='FontMenu FillWhite'>0</text>
+    <circle cx="479" cy="46" r="2" stroke="white" stroke-width="2" fill-opacity="0.0" />
+  </g>
+  <g onclick='rotateView(270);'>
+    <rect x='400' y='42'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='404' y='52' class='FontMenu FillWhite'>-90</text>
+    <circle cx="433" cy="46" r="2" stroke="white" stroke-width="2" fill-opacity="0.0" />
+  </g>
+  <g onclick='rotateView(90);'>
+    <rect x='500' y='42'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='507' y='52' class='FontMenu FillWhite'>90</text>
+    <circle cx="530" cy="46" r="2" stroke="white" stroke-width="2" fill-opacity="0.0" />
+  </g>
+  <g onclick='zoomIn();'>
+    <rect x='560' y='22'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='574' y='32' class='FontMenu FillWhite'>+</text>    
+  </g>
+  <g onclick='zoomOut();'>
+    <rect x='560' y='42'  width='40' height='12' rx='2' ry='2' class='Button'/>
+    <text x='576' y='52' class='FontMenu FillWhite'>-</text>
+  </g>  
+  <g id='infoNotice' class='DisplayInline'>
+    <rect x='620' y='22'  width='260' height='32' rx='2' ry='2' class='Infonotice'/>
+    <text id='textNotice' x='628' y='44' class='FontTextBox FillBlack'> </text>     <!-- important space -->    
+  </g>  
+  <g id='infobox' class='DisplayNone' style='opacity:0.90;'>
+    <rect  id='rectTextbox' x='380' y='70'  width='520' height='80' rx='10' ry='10' class='Infobox'/>
+    <text id='textbox' x='392' y='92' class='FontTextBox FillBlack'> </text> <!-- important space -->
+    <text id='flowtextarea' x='392' y='110' font-size='12'  font-family='Arial,Helvetica'> </text>    <!-- important space -->
+  </g>    
+  <g id='debugbox' class='DisplayNone'>
+    <rect x='820' y='70'  width='240' height='32' rx='2' ry='2' class='ElementUnknown'/>
+    <text id='debugtext' x='832' y='92' class='FontTextBox FillBlack'> </text> <!-- important space -->
+  </g>
+          
+  <!-- The menu -->
+  <g id="Open" class="DisplayInline" onclick="document.getElementById('Popup').style.display='inline';document.getElementById('Open').style.display='none';">
+  <rect x="38" y="22" width="40" height="12" class="Button" rx="2" ry="2"/>
+    <text x='40' y='32' class='FontMenu FillWhite'>Open</text>
+  </g>
+  <g id="Popup" class="DisplayNone">
+    <rect id="PopupBackground" x="34" y="18" width="640" height="220"
+   class="FillWhite StrokeWidth1 StrokeBlack FilterDropShadow Opacity95" rx="2" ry="2"/>
+    <g id="PopupCloseBox" onclick="document.getElementById('Popup').style.display='none';document.getElementById('Open').style.display='inline';">
+      <rect  x="38" y="22" width="40" height="12" class="Button" rx="2" ry="2"/>
+      <text x='40' y='32' class='FontMenu FillWhite'>Close</text>
+    </g>
+    <g id="textArea">
+      <text x='40' y='62' class='FontMsg'>Prototype of generic XML visualization
+      <tspan x='320' dy='16' style='font-size:9px;'>$$STRING_REPLACE_VERSION_ID &#169; Kunuk Nykjaer 2011</tspan>
+        <tspan x='320' dy='16' style='font-size:9px;'>(Chrome 10+, Firefox 4+, Safari 5+, IE 9+, Opera 11+)</tspan>
+        <tspan x='40' dy='32'>Simple interface layout</tspan>
+        <tspan x='40' dy='32'>Zoom: use the mousewheel or the zoom buttons</tspan>
+        <tspan x='40' dy='16'>Panning: click and drag the screen</tspan>        
+        <tspan x='40' dy='16'>Rotation: click the rotation buttons</tspan>
+        <tspan x='40' dy='16'>Object interaction: click, mouseover or drag the objects</tspan>
+      </text>      
+    </g>
+  </g>
+</g>
+<!-- Core end -->

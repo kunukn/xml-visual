@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet href="note.xsl" type="text/xml"?>
+
+<!DOCTYPE note [
+  <!ELEMENT note (priority, to,from,heading,body,program)>
+  <!ELEMENT priority (#PCDATA)>
+  <!ELEMENT to (recipient*)>
+  <!ELEMENT recipient (#PCDATA)>
+  <!ELEMENT from (#PCDATA)>
+  <!ELEMENT heading (#PCDATA)>
+  <!ELEMENT body (#PCDATA)>
+  <!ELEMENT program (#PCDATA)>  
+  <!ATTLIST note id CDATA #IMPLIED>
+  <!ATTLIST note type CDATA #IMPLIED>
+  <!ATTLIST priority level CDATA #IMPLIED>
+  <!ATTLIST recipient type CDATA #IMPLIED>
+]>
+
+<note id="1" type="invitation">
+  <priority level="medium"/>
+  <to>
+    <!-- Invitation -->
+    <recipient type="memo">Frederik</recipient>
+    <recipient type="memo">Joachim</recipient>
+  </to>
+  <from>Magrethe</from>
+  <heading>Reminder</heading>
+  <body>Dinner party invitation</body>
+  <program>
+    <![CDATA[
+        <event>Dinner & Dancing</event>
+        ]]>
+  </program>
+</note>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>
+      LiquidSound
+    </title>
+    <link rel="stylesheet" type="text/css" href="./LiquidSound_files/liquidStyle.css" />
+  </head>
+  <body>
+    <form name="aspnetForm" method="post" action="http://liquidsound.dk/default.aspx" id="aspnetForm">
+      <div>
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU..." />
+      </div>
+      <div>
+        <table cellpadding="0" cellspacing="0" class="mainTable">
+          <tbody>
+            <tr>
+              <td colspan="5" class="banner">
+                <a id="ctl00_bannerLink" href="http://liquidsound.dk/Default.aspx" style="...">
+                  <img src="./LiquidSound_files/Banner.png" style="border-width:0px;" />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="menu">
+                <a id="ctl00_link_aboutUs" href="http://liquidsound.dk/aboutUs.aspx">Om LiquidSound</a>
+              </td>
+              <td class="menu">
+                <a id="ctl00_link_members" href="http://liquidsound.dk/members.aspx">Medlemmer</a>
+              </td>
+              <td class="menu">
+                <a id="ctl00_link_media" href="http://liquidsound.dk/media.aspx">Media</a>
+              </td>
+              <td class="menu">
+                <a id="ctl00_link_booking">Booking</a>
+              </td>
+              <td class="menu">
+                <a id="ctl00_link_contact">Kontakt</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5">
+                <div class="body">
+                  <h1>Velkommen til LiquidSound's hjemmeside</h1>
+                  <p>
+                    Vi er et band på 6 medlemmer som spiller musik fra 60'erne og frem efter. Vi har
+                    først lige fået fat på vores hjemmeside, og er fuld gang med at på den op at stå.
+                    Hvis ikke de informationer som du leder efter står her så kig tilbage på et 
+                    senere tidspunkt.
+                  </p>
+                  <p>
+                    Med venlig hilsen<br />
+                    LiquidSound
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5" class="footer">
+                Copyright © LiquidSound 2011<br />
+                Hosted and designed: Liljegren-Online.dk
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+  </body>
+</html>

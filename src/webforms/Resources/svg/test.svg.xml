@@ -1,0 +1,95 @@
+<!-- Debugging File System view -->
+
+<g id='viewport'>
+  
+  <!-- viewport -->
+  <g id='structure'>
+    <!-- structure -->
+
+    <g id='gn1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+      <rect id='n1' _xv_c='10' onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='10' y='70'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+      <use id="tn1" x="10" y="70" xlink:href="#symbolExpanded"/>
+      <text x='100' y='80' class='FontAttribute'>file 1;10</text>
+    </g>
+    
+      <g id='subgn1'>
+
+        <g id='gn1_1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+        <rect id='n1_1' _xv_c='7' onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='100' y='100'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+        <use id="tn1_1" x="100" y="100" xlink:href="#symbolExpanded"/>    
+        <text x='190' y='110' class='FontAttribute'>1_1;7</text>
+      </g>
+      <g id='subgn1_1'>        
+        
+        <g id='gn1_1_1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+          <rect id='n1_1_1' _xv_c='6'  onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='200' y='130'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+          <use id="tn1_1_1" x="200" y="130" xlink:href="#symbolExpanded"/>
+          <text x='290' y='140' class='FontAttribute'>1_1_1;6</text>
+        </g>        
+        <g id='subgn1_1_1'>
+          
+          <g id='gn1_1_1_1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+            <rect id='n1_1_1_1' _xv_c='3' onmouseover='fsDebug(evt)' onclick='fs(evt)' x='300' y='160'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+            <use id="tn1_1_1_1" x="300" y="160" xlink:href="#symbolExpanded"/>
+            <text x='390' y='170' class='FontAttribute'>1_1_1_1;3<tspan x='390' dy='12'>tspan her</tspan>
+            </text>
+          </g>          
+          <g id='subgn1_1_1_1'>            
+            
+            <g id='gn1_1_1_1_1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+              <rect id='n1_1_1_1_1' _xv_c='0' onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='400' y='190'  width='80' height='20' rx='3' ry='3' class='ElementNode' />              
+              <text x='490' y='200' class='FontAttribute'>1_1_1_1_1;0</text> 
+            </g>
+            
+            <g id='gn1_1_1_1_2' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+              <rect id='n1_1_1_1_2' _xv_c='1' onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='400' y='220'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+              <use id="tn1_1_1_1_2" x="400" y="220" xlink:href="#symbolExpanded"/>
+              <text x='490' y='230' class='FontAttribute'>1_1_1_1_2;1</text>
+            </g>
+            <g id='subgn1_1_1_1_2' >       
+              
+              <g id='gn1_1_1_1_2_1'  onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+                <rect id='n1_1_1_1_2_1' _xv_c='0' onmouseover='fsDebug(evt)'  onclick='fs(evt)' x='500' y='250'  width='80' height='20' rx='3' ry='3' class='ElementNode' />                
+                <text x='590' y='260' class='FontAttribute'>1_1_1_1_2_1;0<tspan x='590' dy='12'>tspan her</tspan><tspan x='590' dy='12'>mere tspan</tspan>
+              </text>  
+              </g>
+            </g>
+          </g>
+          
+          <g id='gn1_1_1_2' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+            <rect id='n1_1_1_2' _xv_c='1' onmouseover='fsDebug(evt)' onclick='fs(evt)' x='300' y='280'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+            <use id="tn1_1_1_2" x="300" y="280" xlink:href="#symbolExpanded"/>
+            <text x='390' y='290' class='FontAttribute'>1_1_1_2;1</text>
+          </g>          
+          <g id='subgn1_1_1_2' >
+            
+            <g id='gn1_1_1_2_1'  onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+              <rect id='n1_1_1_2_1' _xv_c='0' onmouseover='fsDebug(evt)' onclick='fs(evt)' x='400' y='310'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+              <text x='490' y='320' class='FontAttribute'>1_1_1_2_1;0</text>  
+            </g>
+          </g>
+          
+        </g> <!-- subgn1_1 -->
+      </g>  <!-- subgn1 -->
+    
+    
+      <g id='gn1_2'  onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+        <rect id='n1_2' _xv_c='1' onmouseover='fsDebug(evt)' onclick='fs(evt)' x='100' y='340'  width='80' height='20' rx='3' ry='3' class='ElementNode' />
+        <use id="tn1_2" x="100" y="340" xlink:href="#symbolExpanded"/>
+        <text x='190' y='350' class='FontAttribute'>1_2;1</text>
+      </g>
+    
+      <g id='subgn1_2'>
+        
+        <g id='gn1_2_1' onmouseover='HItem(evt)' onmouseout='UItem(evt)'>
+          <rect id='n1_2_1' _xv_c='0' onmouseover='fsDebug(evt)' onclick='fs(evt)' x='200' y='370'  width='80' height='20' rx='3' ry='3' class='ElementNode' />          
+          <text x='290' y='380' class='FontAttribute'>1_2_1;0<tspan x='290' dy='12'>tspan her</tspan><tspan x='290' dy='12'>mere tspan</tspan>
+        </text>  
+        </g>
+        
+      </g> <!-- subgn2 -->
+      
+      
+    </g>
+    </g>   <!-- structure -->    
+</g> <!-- end viewport -->

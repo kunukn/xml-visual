@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherinfo>
+  <city>Philadelphia</city>
+  <forecast>sunny</forecast>
+  <high>75°</high>
+  <low>62°</low>
+</weatherinfo>

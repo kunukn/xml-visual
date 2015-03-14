@@ -1,0 +1,67 @@
+/*svg.css */
+
+/* strokes */
+.StrokeBlack{stroke:black;}
+.StrokeWhite{stroke:white;}
+.StrokeGreen{stroke:#00FF00;} /* green */
+.StrokeYellow{stroke:#FFFF00;}
+.StrokeRed{stroke:#FF0000;}
+.StrokeBlue{stroke:#0000FF;} /* blue */
+.StrokeWidth1{stroke-width:1;}
+/* International recognized 6 colors */
+.FillRed{fill:#FF0000;}
+.FillGreen{fill:#00FF00;} /* green #90EE90*/
+.FillYellow{fill:#00FFFF;}
+.FillBlue{fill:#0000FF;} /* blue #306EFF*/
+.FillBlack{fill:black;}
+.FillWhite{fill:white;}
+.OpacityLow{opacity:0.1;}
+.OpacityFull{opacity:1.0;}
+.Opacity95{opacity:0.95;}
+.Opacity90{opacity:0.90;}
+/* */
+.DisplayInline{display:inline;}
+.DisplayNone{display:none;}
+/* */
+.FilterDropShadow{filter:url(#DropShadow);}
+/* */
+.ElementNode{fill:url(#gradientNode);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementText{fill:url(#gradientText);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementCdata{fill:url(#gradientCdata);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementDocType{fill:url(#gradientDocType);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementProcessingInstruction{fill:url(#gradientProcessingInstruction);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementComment{fill:url(#gradientComment);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementUnknown{fill:#DDDDDD;fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;}
+.ElementRoot{fill:url(#gradientRed);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;} 
+.Bigraph{fill:url(#gradientBigraph);fill-opacity:0.6;stroke:rgb(0,0,0);stroke-width:1;}
+.Button{fill:#FF0000;fill-opacity:0.6;stroke:rgb(0,0,0);stroke-width:1;}
+.Infonotice{fill:#FFFFFF;fill-opacity:0.6;stroke:rgb(0,0,0);stroke-width:1;}
+.Infobox{fill:#FFFFFF;fill-opacity:0.9;stroke:rgb(0,0,0);stroke-width:1;}
+.Popupbox{fill:#FFFFFF;fill-opacity:0.9;stroke:rgb(0,0,0);stroke-width:1;}
+.GradientWhite{fill:url(#gradientWhite);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;} 
+.GradientRed{fill:url(#gradientRed);fill-opacity:1.0;stroke:rgb(0,0,0);stroke-width:1;} 
+
+/* */
+.FontMetadata{font-weight:normal;font-size:12px;font-family:Verdana;text-decoration:none;}
+.FontNode{font-weight:bold;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontAttribute{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontText{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontComment{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontCdata{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontDocType{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontProcessingInstruction{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontMenu{font-weight:bold;font-size:12px;font-family:Verdana;text-decoration:none;}
+.FontMsg{font-weight:normal;font-size:14px;font-family:Verdana;text-decoration:none;}
+.FontBox{font-weight:normal;font-size:10px;font-family:Verdana;text-decoration:none;}
+.FontTextBox{font-weight:normal;font-size:16px;font-family:Verdana;text-decoration:none;}
+
+/* */
+.Line{stroke:#000000;stroke-width:2;}
+.Line2{stroke:#AAAAAA;stroke-width:1;}
+/*bigraph */
+.LineCdata{stroke:#0000FF;stroke-width:1;}
+.LineNode{stroke:#AAAAAA;stroke-width:1;}
+.LineText{stroke:#FFFF00;stroke-width:1;}
+.LineComment{stroke:#00FF00;stroke-width:1;}
+.LineAttr{stroke:#FF0000;stroke-width:1;}
+.Metadata{}

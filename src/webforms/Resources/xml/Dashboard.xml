@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+
+<root>  
+  <maxShow>100</maxShow> <!-- max show row items -->
+              
+  <servers>
+    <server status="enabled">
+      <Name>AmazonIRIEModel</Name>
+    </server>
+
+    <server status="enabled">
+      <Name>VestasIRIEModel</Name>
+    </server>
+
+    <server status="disabled">
+      <Name>FantasyServer</Name>
+    </server>        
+  </servers>
+  
+  
+  <informationTypes>
+
+    <informationType>
+      <StatusType>unknown</StatusType>
+      <ExpireTime>12</ExpireTime>
+      <Color>#FFFFFF</Color>
+    </informationType>
+
+    <informationType>
+      <StatusType>ok</StatusType>
+      <ExpireTime>12</ExpireTime>
+      <Color>#00FF00</Color>
+    </informationType>
+
+    <informationType>
+      <StatusType>warning</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#FFFF00</Color>
+    </informationType>
+    
+    <informationType>
+      <StatusType>warningfix</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#FF6600</Color>
+    </informationType>
+
+    <informationType>
+      <StatusType>error</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#FF0000</Color>
+    </informationType>
+
+    <informationType>
+      <StatusType>errorfix</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#D462FF</Color>
+    </informationType>
+
+    <informationType status="disabled">
+      <StatusType>fatal</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#FF0000</Color>
+    </informationType>
+
+    <informationType status="disabled">
+      <StatusType>fatalfix</StatusType>
+      <ExpireTime>72</ExpireTime>
+      <Color>#804000</Color>
+    </informationType>
+  </informationTypes>
+
+
+  <fileformats>    
+    <fileformat>
+      <Name>FileCheck</Name>
+      <Color>#00FFFF</Color>
+    </fileformat>    
+    <fileformat>
+      <Name>DiskSpace</Name>
+      <Color>#3399FF</Color>
+    </fileformat>
+  </fileformats>
+
+
+  <!-- not used -->
+  <formattings>
+    <FileCheck>Statustype;Status;Server;StatusTime UTC;Filename;Fileexists;Filecreated UTC;ExpectedFileDate UTC</FileCheck>
+    <DiskSpace>StatusType;Status;Server;StatusTime UTC;Directory;Freespace;;</DiskSpace>
+  </formattings>
+  
+  
+  <!-- not used -->
+  <pdfs>
+    <pdf>todo</pdf>  
+  </pdfs>
+      
+
+</root>

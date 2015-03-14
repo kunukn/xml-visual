@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- kommentar -->
+<bygning type="hus">
+  text1  
+  <rum type="gang" etage="0" />
+  <rum type="stue" etage="0">
+    text2
+    <genstand>spisebord</genstand>
+    text3
+    <genstand>sofa</genstand>
+    <!-- mere kommentar -->
+    text4
+  </rum>
+  text5
+  <rum type="soveværelse" etage="1">
+    text6
+    <![CDATA[
+          Cdata her
+        ]]>
+    <genstand>seng</genstand>    
+    text7
+  </rum>
+  text1
+</bygning>

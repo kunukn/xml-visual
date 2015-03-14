@@ -1,0 +1,27 @@
+<!-- BPEL book p101  Business Process Execution Language for Web Services
+Second Edition
+Make a concurrent invocation to AA in DA -->
+<flow>
+  <sequence>
+    <!-- Async invoke of the AA web service and wait for the callback-->
+    <invoke partnerLink="AmericanAirlines"
+    portType="aln:FlightAvailabilityPT"
+    operation="FlightAvailability"
+    inputVariable="FlightDetails" />
+    <receive partnerLink="AmericanAirlines"
+    portType="aln:FlightCallbackPT"
+    operation="FlightTicketCallback"
+    variable="FlightResponseAA" />
+  </sequence>
+  <sequence>
+    <!-- Async invoke of the DA web service and wait for the callback-->
+    <invoke partnerLink="DeltaAirlines"
+    portType="aln:FlightAvailabilityPT"
+    operation="FlightAvailability"
+    inputVariable="FlightDetails" />
+    <receive partnerLink="DeltaAirlines"
+    portType="aln:FlightCallbackPT"
+    operation="FlightTicketCallback"
+    variable="FlightResponseDA" />
+  </sequence>
+</flow>
